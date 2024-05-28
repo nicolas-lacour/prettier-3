@@ -2495,10 +2495,10 @@ cspell@5.18.5:
     strip-ansi "^6.0.1"
     vscode-uri "^3.0.3"
 
-css-units-list@0.0.5:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/css-units-list/-/css-units-list-0.0.5.tgz#a1aa9318ccd2f64dcda5c3336c5261d1f729cade"
-  integrity sha512-CDr8YQugedUsousq/G3ZSrod3XH0qGKk09MwahvDhwg72p+bBi068B2EJxuOhhePQdypxCFcbmMIyhQleUxq4A==
+css-units-list@2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/css-units-list/-/css-units-list-2.0.1.tgz#23df1f0c37053b21212233e4eed7d16755c1a4ca"
+  integrity sha512-dzkuF54ip2CmGWXgQAvDohyNKPOjd7mQPQoAwFmqCjaHsOcmkMG6oiKi2+mexnuWU0pl5oJ+7+2aUKFEGNAQmw==
 
 cssom@^0.4.4:
   version "0.4.4"
