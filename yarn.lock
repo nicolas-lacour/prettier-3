@@ -3135,12 +3135,13 @@ eslint@8.10.0:
     text-table "^0.2.0"
     v8-compile-cache "^2.0.3"
 
-esm-utils@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/esm-utils/-/esm-utils-3.0.0.tgz#dacf1b3928da7c651982221c4d59710475cf0b93"
-  integrity sha512-BRGUeZ4BktoVZE8mhA/zVb6YD9Hc7sW6lidTDFgj+a+ugu/e6uDCifKUNAXUv0eEQeIvb6juSVOZ71Rv99bL8w==
+esm-utils@4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/esm-utils/-/esm-utils-4.3.0.tgz#fede22deb11ba4a7942d1a5837b1f6dd76295fc0"
+  integrity sha512-KupZztbWAnuksy1TYPjTkePxVlMWzmXdmB72z1WvUadtUiFv6x+0PKjYfyy1io9gdvU1A6QIcu055NRrJu1TEA==
   dependencies:
-    url-or-path "2.1.0"
+    import-meta-resolve "^4.1.0"
+    url-or-path "^2.3.0"
 
 espree@9.3.1, espree@^9.3.1:
   version "9.3.1"
@@ -3689,6 +3690,11 @@ import-local@^3.0.2:
   dependencies:
     pkg-dir "^4.2.0"
     resolve-cwd "^3.0.0"
+
+import-meta-resolve@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/import-meta-resolve/-/import-meta-resolve-4.1.0.tgz#f9db8bead9fafa61adb811db77a2bf22c5399706"
+  integrity sha512-I6fiaX09Xivtk+THaMfAwnA3MVA5Big1WHF1Dfx9hFuvNIWpXnorlkzhcQf6ehrqQiiZECRt1poOAkPmer3ruw==
 
 imurmurhash@^0.1.4:
   version "0.1.4"
@@ -6508,10 +6514,10 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
-url-or-path@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/url-or-path/-/url-or-path-2.1.0.tgz#8bb39a2a2b7e8f2e31c7883d8207b0cbd07acb9f"
-  integrity sha512-dsBD6GbytSMj9YDb3jVzSRENwFh50oUORnWBeSHfo0Lnwv2KMm/J4npyGy1P9rivUPsUGLjTA53XqAFqpe0nww==
+url-or-path@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/url-or-path/-/url-or-path-2.3.0.tgz#61a49523b96cec6764c9c37ba4762946f9c39dba"
+  integrity sha512-5g9xpEJKjbAY8ikLU3XFpEg3hRLGt6SbCQmDElb1AL7JTW6vMi5Na5e3dMvONHisIu9VHgMAADLHJ8EznYR2ow==
 
 v8-compile-cache@^2.0.3:
   version "2.3.0"
